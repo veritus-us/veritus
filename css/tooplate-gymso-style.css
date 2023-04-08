@@ -62,7 +62,7 @@ https://www.tooplate.com/view/2119-gymso-fitness
 
 
   body {
-    background: var(--silver-color);
+    background: var(--dark-color);
     font-family: var(--base-font-family);
   }
 
@@ -211,7 +211,7 @@ https://www.tooplate.com/view/2119-gymso-fitness
   /* BG OVERLAY */
 
   .bg-overlay {
-    background: var(--dark-color);
+    background: var(--gold-color);
     position: absolute;
     top: 0;
     right: 0;
@@ -396,7 +396,7 @@ https://www.tooplate.com/view/2119-gymso-fitness
   .class-price {
     background: var(--gold-color);
     border-radius: var(--border-radius-large);
-    color: var(--silver-color);
+    color: var(--dark-color);
     font-weight: var(--font-weight-bold);
     display: block;
     position: absolute;
