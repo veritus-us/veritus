@@ -374,11 +374,11 @@ https://www.tooplate.com/view/2119-gymso-fitness
 
 
   /*---------------------------------------
-     CLASS               
+     SERVICES               
   -----------------------------------------*/
 
   .class-info {
-    background: var(--gold-color);
+    background: var(--dark-color);
     box-shadow: 6px 0 38px rgba(20,20,20,0.10);
     border-radius: 0 0 2px 2px;
     padding: 1rem 2rem;
@@ -475,7 +475,7 @@ https://www.tooplate.com/view/2119-gymso-fitness
 
 
   /*---------------------------------------
-      ABOUT & TEAM            
+      ABOUT            
   -----------------------------------------*/
 
   .about {
