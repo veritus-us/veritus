@@ -469,7 +469,7 @@ button:hover .button-text {
   -----------------------------------------*/
 
   .about {
-    background: var(--silver-color);
+    background: var(--gray-color);
   }
 
   .about-working-hours {
@@ -552,6 +552,7 @@ button:hover .button-text {
 
   .schedule {
     background: var(--dark-color);
+    vertical-align: middle;
   }
 
  /* .schedule-table {
