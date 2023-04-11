@@ -302,7 +302,7 @@ button:hover .button-text {
   /* BG OVERLAY */
 
   .bg-overlay {
-    background: var(--gold-color);
+    background: var(--dark-color);
     position: absolute;
     top: 0;
     right: 0;
@@ -340,7 +340,7 @@ button:hover .button-text {
 
   .feature {
     background: var(--dark-color);
-    padding: 2rem 0;
+    padding: 5rem 0;
   }
 
 
