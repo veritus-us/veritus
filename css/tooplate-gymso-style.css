@@ -455,7 +455,7 @@ button:hover .button-text {
 
   .hero {
     background-image: url('../images/logo.png');
-    background-size: cover;
+    background-size: contain;
     background-position: top;
     background-repeat: no-repeat;
     vertical-align: middle;
