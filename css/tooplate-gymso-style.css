@@ -127,7 +127,7 @@ https://www.tooplate.com/view/2119-gymso-fitness
   }
 
   .section {
-    padding: 1rem 0;
+    padding: 7rem 0;
   }
 
 
@@ -465,6 +465,52 @@ button:hover .button-text {
 
 
   /*---------------------------------------
+      ABOUT            
+  -----------------------------------------*/
+
+  .about {
+    background: var(--gold-color);
+  }
+
+  .about-working-hours {
+    border-left: 2px solid;
+    padding-left: 3.5rem;
+  }
+
+  .about-working-hours strong {
+    color: var(--dark-color);
+    opacity: 0.85;
+  }
+
+  .team-thumb {
+    position: relative;
+  }
+
+  .team-info {
+    background: var(--dark-color);
+    border-radius: 0 0 2px 2px;
+    box-shadow: 6px 0 38px rgba(20,20,20,0.10);
+    padding: 20px;
+    position: relative;
+  }
+
+  .team-info span {
+    font-weight: var(--font-weight-light);
+    opacity: 0.85;
+  }
+
+  .team-info .social-icon {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+  }
+
+  .team-info .social-icon li {
+    display: block;
+  }
+
+
+  /*---------------------------------------
      SERVICES               
   -----------------------------------------*/
 
@@ -564,51 +610,6 @@ button:hover .button-text {
     padding: 1rem;
   }
 
-
-  /*---------------------------------------
-      ABOUT            
-  -----------------------------------------*/
-
-  .about {
-    background: var(--gold-color);
-  }
-
-  .about-working-hours {
-    border-left: 2px solid;
-    padding-left: 3.5rem;
-  }
-
-  .about-working-hours strong {
-    color: var(--silver-color);
-    opacity: 0.85;
-  }
-
-  .team-thumb {
-    position: relative;
-  }
-
-  .team-info {
-    background: var(--silver-color);
-    border-radius: 0 0 2px 2px;
-    box-shadow: 6px 0 38px rgba(20,20,20,0.10);
-    padding: 20px;
-    position: relative;
-  }
-
-  .team-info span {
-    font-weight: var(--font-weight-light);
-    opacity: 0.85;
-  }
-
-  .team-info .social-icon {
-    position: absolute;
-    top: 10px;
-    right: 20px;
-  }
-
-  .team-info .social-icon li {
-    display: block;
-  }
 
 
   /*---------------------------------------
