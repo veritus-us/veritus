@@ -527,7 +527,7 @@ button:hover .button-text {
   }
 
   .class-info strong {
-    color: var(--gold-color);
+    color: var(--white-color);
   }
 
   .class-price {
