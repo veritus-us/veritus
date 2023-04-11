@@ -469,7 +469,7 @@ button:hover .button-text {
   -----------------------------------------*/
 
   .about {
-    background: var(--gold-color);
+    background: var(--silver-color);
   }
 
   .about-working-hours {
@@ -487,7 +487,7 @@ button:hover .button-text {
   }
 
   .team-info {
-    background: var(--dark-color);
+    background: var(--gray-color);
     border-radius: 0 0 2px 2px;
     box-shadow: 6px 0 38px rgba(20,20,20,0.10);
     padding: 20px;
@@ -531,7 +531,7 @@ button:hover .button-text {
   }
 
   .class-price {
-    background: var(--gold-color);
+    background: var(--silver-color);
     border-radius: var(--border-radius-large);
     color: var(--dark-color);
     font-weight: var(--font-weight-bold);
