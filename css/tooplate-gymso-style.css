@@ -551,7 +551,7 @@ button:hover .button-text {
   -----------------------------------------*/
 
   .schedule {
-    background: var(--gold-color);
+    background: var(--dark-color);
   }
 
   .schedule-table {
@@ -571,7 +571,7 @@ button:hover .button-text {
   }
 
   .schedule-table span {
-    color: var(--gray-color);
+    color: var(--dark-color);
   }
 
   .schedule-table span,
