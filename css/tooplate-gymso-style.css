@@ -478,7 +478,7 @@ button:hover .button-text {
   }
 
   .about-working-hours strong {
-    color: var(--silver-color);
+    color: var(--black-color);
     opacity: 0.85;
   }
 
@@ -487,7 +487,7 @@ button:hover .button-text {
   }
 
   .team-info {
-    background: var(--gray-color);
+    background: var(--silver-color);
     border-radius: 0 0 2px 2px;
     box-shadow: 6px 0 38px rgba(20,20,20,0.10);
     padding: 20px;
@@ -527,7 +527,7 @@ button:hover .button-text {
   }
 
   .class-info strong {
-    color: var(--dark-color);
+    color: var(--gold-color);
   }
 
   .class-price {
