@@ -72,7 +72,7 @@ https://www.tooplate.com/view/2119-gymso-fitness
      TYPOGRAPHY              
   -----------------------------------------*/
 
-  h1,h2,h2w,h2b,h2d,h3,h4,h5,h6 {
+  h1,h2,h3,h4,h5,h6,h7,h8,h9 {
     font-weight: var(--font-weight-thin);
     line-height: normal;
   }
@@ -88,27 +88,6 @@ https://www.tooplate.com/view/2119-gymso-fitness
 
   h2 {
     color: var(--silver-color);
-    font-size: var(--h2-font-size);
-    font-weight: var(--font-weight-bold);
-    letter-spacing: -2px;
-  }
-
-  h2w {
-    color: var(--white-color);
-    font-size: var(--h2-font-size);
-    font-weight: var(--font-weight-bold);
-    letter-spacing: -2px;
-  }
-
-  h2b {
-    color: var(--black-color);
-    font-size: var(--h2-font-size);
-    font-weight: var(--font-weight-bold);
-    letter-spacing: -2px;
-  }
-
-  h2d {
-    color: var(--dark-color);
     font-size: var(--h2-font-size);
     font-weight: var(--font-weight-bold);
     letter-spacing: -2px;
@@ -135,6 +114,27 @@ https://www.tooplate.com/view/2119-gymso-fitness
     font-size: var(--h6-font-size);
     line-height: inherit;
     margin: 0;
+  }
+
+  h7 {
+    color: var(--white-color);
+    font-size: var(--h2-font-size);
+    font-weight: var(--font-weight-bold);
+    letter-spacing: -2px;
+  }
+
+  h8 {
+    color: var(--black-color);
+    font-size: var(--h2-font-size);
+    font-weight: var(--font-weight-bold);
+    letter-spacing: -2px;
+  }
+
+  h9 {
+    color: var(--dark-color);
+    font-size: var(--h2-font-size);
+    font-weight: var(--font-weight-bold);
+    letter-spacing: -2px;
   }
 
   p {
