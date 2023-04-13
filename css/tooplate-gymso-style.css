@@ -218,6 +218,13 @@ https://www.tooplate.com/view/2119-gymso-fitness
     line-height: 1.5em;
     }
 
+  pg {
+    color: var(--gold-color);
+    font-size: var(--p-font-size);
+    font-weight: var(--font-weight-light);
+    line-height: 1.5em;
+    }
+
   b, 
   strong {
     font-weight: var(--font-weight-bold);
