@@ -72,7 +72,7 @@ https://www.tooplate.com/view/2119-gymso-fitness
      TYPOGRAPHY              
   -----------------------------------------*/
 
-  h1,h2,h3,h4,h5,h6,h2w,h2b,h2d,h2g,p,ps,pg,pd,pb {
+  h1,h2,h3,h4,h5,h6,h6g,h2w,h2b,h2d,h2g,p,ps,pg,pd,pb {
     font-weight: var(--font-weight-thin);
     line-height: normal;
   }
@@ -143,6 +143,13 @@ https://www.tooplate.com/view/2119-gymso-fitness
 
   h6 {
     color: var(--silver-color);
+    font-size: var(--h6-font-size);
+    line-height: inherit;
+    margin: 0;
+  }
+
+  h6g {
+    color: var(--gold-color);
     font-size: var(--h6-font-size);
     line-height: inherit;
     margin: 0;
