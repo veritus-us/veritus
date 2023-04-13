@@ -773,7 +773,7 @@ button:hover .button-text {
   }
 
   .site-footer a {
-    color: var(--p-color);
+    color: var(--silver-color);
     font-weight: var(--font-weight-light);
   }
 
