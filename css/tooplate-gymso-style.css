@@ -440,7 +440,7 @@ button:hover .button-text {
   -----------------------------------------*/
 
   .navbar {
-    background: var(--dark-color);
+    background: var(--black-color);
     padding: 1rem;
   }
 
