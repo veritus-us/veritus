@@ -606,7 +606,7 @@ button:hover .button-text {
   -----------------------------------------*/
 
   .class-info {
-    background: var(--dark-color);
+    background: var(--black-color);
     box-shadow: 6px 0 38px rgba(20,20,20,0.10);
     border-radius: 0 0 2px 2px;
     padding: 1rem 2rem;
@@ -618,7 +618,7 @@ button:hover .button-text {
   }
 
   .class-info strong {
-    color: var(--white-color);
+    color: var(--silver-color);
   }
 
   .class-price {
