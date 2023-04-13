@@ -560,7 +560,7 @@ button:hover .button-text {
   -----------------------------------------*/
 
   .about {
-    background: var(--gray-color);
+    background: var(--black-color);
   }
 
   .about-working-hours {
