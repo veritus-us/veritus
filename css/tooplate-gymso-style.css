@@ -440,7 +440,7 @@ button:hover .button-text {
   -----------------------------------------*/
 
   .navbar {
-    background: var(--black-color);
+    background: var(--dark-color);
     padding: 1rem;
   }
 
@@ -578,7 +578,7 @@ button:hover .button-text {
   }
 
   .team-info {
-    background: var(--dark-color);
+    background: var(--black-color);
     border-radius: 0 0 2px 2px;
     box-shadow: 6px 0 38px rgba(20,20,20,0.10);
     padding: 20px;
@@ -606,7 +606,7 @@ button:hover .button-text {
   -----------------------------------------*/
 
   .class-info {
-    background: var(--black-color);
+    background: var(--dark-color);
     box-shadow: 6px 0 38px rgba(20,20,20,0.10);
     border-radius: 0 0 2px 2px;
     padding: 1rem 2rem;
@@ -622,7 +622,7 @@ button:hover .button-text {
   }
 
   .class-price {
-    background: var(--gold-color);
+    background: var(--silver-color);
     border-radius: var(--border-radius-large);
     color: var(--dark-color);
     font-weight: var(--font-weight-bold);
