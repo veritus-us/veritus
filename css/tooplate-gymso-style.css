@@ -603,10 +603,10 @@ button:hover .button-text {
 0% {
     right: -150%;
   }
-  50% {
+  25% {
     right: 0%;
   }
-  60% {
+  75% {
     right: 0%;
   }
   100% {
@@ -618,10 +618,10 @@ button:hover .button-text {
 0% {
     right: -150%;
   }
-  50% {
+  25% {
     right: 0%;
   }
-  60% {
+  75% {
     right: 0%;
   }
   100% {
@@ -633,14 +633,14 @@ button:hover .button-text {
 0% {
     right: -150%;
   }
-  50% {
+  25% {
     right: 0%;
   }
-  60% {
+  75% {
     right: 0%;
   }
   100% {
-    right: 150%;
+    right: 0%;
   }
 }
 
