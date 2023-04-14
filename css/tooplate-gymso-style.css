@@ -608,15 +608,15 @@ button:hover .button-text {
   }
   20% {
     opacity: 1;
-    transform: translateX(calc(50% - 150px)); /* Adjust the value to center the sentence */
+    transform: translateX(-50%);
   }
   80% {
     opacity: 1;
-    transform: translateX(calc(50% - 150px)); /* Adjust the value to center the sentence */
+    transform: translateX(-50%);
   }
   100% {
     opacity: 0;
-    transform: translateX(calc(-50% + 150px)); /* Adjust the value to center the sentence */
+    transform: translateX(calc(-100% + var(--width))); /* Calculate the value based on the width of the sentence and the container */
   }
 }
 
@@ -627,15 +627,15 @@ button:hover .button-text {
   }
   20% {
     opacity: 1;
-    transform: translateX(calc(50% - 150px)); /* Adjust the value to center the sentence */
+    transform: translateX(-50%);
   }
   80% {
     opacity: 1;
-    transform: translateX(calc(50% - 150px)); /* Adjust the value to center the sentence */
+    transform: translateX(-50%);
   }
   100% {
     opacity: 1;
-    transform: translateX(calc(50% - 150px)); /* Adjust the value to center the sentence */
+    transform: translateX(-50%);
   }
 }
 
