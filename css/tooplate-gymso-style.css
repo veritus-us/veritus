@@ -582,6 +582,7 @@ button:hover .button-text {
   position: relative;
   opacity: 0;
   transform: translateX(100%);
+  display: inline-block;
 }
 
 .slide-in:last-child {
