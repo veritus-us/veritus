@@ -592,55 +592,55 @@ button:hover .button-text {
 }
 .slide2 {
   animation-name: slide2;
-   animation-delay: 2s;
+   animation-delay: 3s;
 }
 .slide3 {
   animation-name: slide3;
-  animation-delay: 4s;
+  animation-delay: 6s;
 }
 
 @keyframes slide1 {
 0% {
-    right: 100%;
+    right: -150%;
   }
   50% {
-    right: 50%;
+    right: 0%;
   }
   60% {
-    right: 50%;
+    right: 0%;
   }
   100% {
-    right: 0%;
+    right: 150%;
   }
 }
 
 @keyframes slide2 {
 0% {
-    right: 100%;
+    right: -150%;
   }
   50% {
-    right: 50%;
+    right: 0%;
   }
   60% {
-    right: 50%;
+    right: 0%;
   }
   100% {
-    right: 0%;
+    right: 150%;
   }
 }
 
 @keyframes slide3 {
 0% {
-    right: 100%;
+    right: -150%;
   }
   50% {
-    right: 50%;
+    right: 0%;
   }
   60% {
-    right: 50%;
+    right: 0%;
   }
   100% {
-    right: 0%;
+    right: 150%;
   }
 }
 
