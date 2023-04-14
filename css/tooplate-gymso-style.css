@@ -594,6 +594,7 @@ button:hover .button-text {
 }
 .slide2 {
   animation-name: slide2;
+   animation-delay: 2s;
 }
 .slide3 {
   animation-name: slide3;
