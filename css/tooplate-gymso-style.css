@@ -577,10 +577,10 @@ button:hover .button-text {
     background: var(--black-color);
   }
 
-  .about-working-hours {
+  /*.about-working-hours {
     border-left: 2px solid;
     padding-left: 3.5rem;
-  }
+  } */
 
   .about-working-hours strong {
     color: var(--black-color);
@@ -591,13 +591,13 @@ button:hover .button-text {
     position: relative;
   }
 
-  .team-info {
+  /*.team-info {
     background: var(--black-color);
     border-radius: 0 0 2px 2px;
     box-shadow: 6px 0 38px rgba(20,20,20,0.10);
     padding: 20px;
     position: relative;
-  }
+  } */
 
   .team-info span {
     font-weight: var(--font-weight-light);
