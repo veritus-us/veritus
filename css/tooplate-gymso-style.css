@@ -585,6 +585,10 @@ button:hover .button-text {
   display: inline-block;
 }
 
+.slide-in:nth-child(2) {
+  animation-delay: 3s; /* Add delay of 3s to second sentence */
+}
+
 .slide-in:last-child {
   animation-name: slide-no-disappear;
   animation-duration: 3s;
