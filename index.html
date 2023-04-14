@@ -22,34 +22,8 @@ Tooplate 2119 Gymso Fitness
 https://www.tooplate.com/view/2119-gymso-fitness
 -->
 	
-	<title>Animated Text</title>
-	<style>
-		.container {
-			white-space: nowrap; /* Prevents text from wrapping to next line */
-			overflow: hidden; /* Hides overflow content */
-			width: 100%; /* Set width to 100% to prevent line break */
-			position: relative; /* Set position to relative for absolute positioning of text */
-			font-size: 24px; /* Set font size to desired size */
-		}
-		.slide-in {
-			position: absolute; /* Set position to absolute */
-			animation: slide-in 3s ease forwards; /* Set animation name, duration, timing function, and fill mode */
-		}
-		@keyframes slide-in {
-			0% {
-				transform: translateX(100%); /* Set initial position to translateX(100%) */
-			}
-			33% {
-				transform: translateX(0); /* Set position at 33% to translateX(0) */
-			}
-			66% {
-				transform: translateX(-100%); /* Set position at 66% to translateX(-100%) */
-			}
-			100% {
-				transform: translateX(-100%); /* Set final position to translateX(-100%) */
-			}
-		}
-	</style>	
+	
+		
 	
 	
 	
@@ -286,7 +260,33 @@ https://www.tooplate.com/view/2119-gymso-fitness
 				      
 
 
-
+<style>
+		.container {
+			white-space: nowrap; /* Prevents text from wrapping to next line */
+			overflow: hidden; /* Hides overflow content */
+			width: 100%; /* Set width to 100% to prevent line break */
+			position: relative; /* Set position to relative for absolute positioning of text */
+			font-size: 24px; /* Set font size to desired size */
+		}
+		.slide-in {
+			position: absolute; /* Set position to absolute */
+			animation: slide-in 3s ease forwards; /* Set animation name, duration, timing function, and fill mode */
+		}
+		@keyframes slide-in {
+			0% {
+				transform: translateX(100%); /* Set initial position to translateX(100%) */
+			}
+			33% {
+				transform: translateX(0); /* Set position at 33% to translateX(0) */
+			}
+			66% {
+				transform: translateX(-100%); /* Set position at 66% to translateX(-100%) */
+			}
+			100% {
+				transform: translateX(-100%); /* Set final position to translateX(-100%) */
+			}
+		}
+	</style>
 	<div class="container">
 		<span class="slide-in">Stop wasting time.</span>
 		<span class="slide-in" style="animation-delay: 3s;">Stop wasting paper.</span>
