@@ -575,7 +575,7 @@ button:hover .button-text {
   white-space: nowrap;
   overflow: hidden;
   width: 100%;
-  text-align: center; /* Center align the container */
+  text-align: center;
 }
 
 .slide-in {
@@ -608,15 +608,15 @@ button:hover .button-text {
   }
   20% {
     opacity: 1;
-    transform: translateX(-50%);
+    transform: translateX(calc(-50% - var(--offset-1) - var(--width-1) / 2));
   }
-  80% {
+  60% {
     opacity: 1;
-    transform: translateX(-50%);
+    transform: translateX(calc(-50% - var(--offset-2) - var(--width-2) / 2));
   }
   100% {
     opacity: 0;
-    transform: translateX(calc(-100% + var(--width))); /* Calculate the value based on the width of the sentence and the container */
+    transform: translateX(calc(-50% - var(--offset-3) - var(--width-3) / 2));
   }
 }
 
@@ -627,15 +627,15 @@ button:hover .button-text {
   }
   20% {
     opacity: 1;
-    transform: translateX(-50%);
+    transform: translateX(calc(-50% - var(--offset-1) - var(--width-1) / 2));
   }
-  80% {
+  60% {
     opacity: 1;
-    transform: translateX(-50%);
+    transform: translateX(calc(-50% - var(--offset-2) - var(--width-2) / 2));
   }
   100% {
     opacity: 1;
-    transform: translateX(-50%);
+    transform: translateX(calc(-50% - var(--offset-3) - var(--width-3) / 2));
   }
 }
 
