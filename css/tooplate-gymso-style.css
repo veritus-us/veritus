@@ -591,6 +591,10 @@ button:hover .button-text {
   animation-fill-mode: forwards;
 }
 
+.slide-in-no-disappear {
+  animation-fill-mode: forwards;
+}
+
 @keyframes slide {
   0% {
     opacity: 0;
@@ -628,6 +632,7 @@ button:hover .button-text {
     transform: translateX(0%);
   }
 }
+
 
 
   /*---------------------------------------
