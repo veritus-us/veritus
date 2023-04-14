@@ -585,7 +585,10 @@ button:hover .button-text {
 }
 
 .slide-in:last-child {
-  animation-duration: 1s; /* Change duration to 1 second for the last sentence */
+  animation-name: slide-no-disappear;
+  animation-duration: 3s;
+  animation-delay: 6s;
+  animation-fill-mode: forwards;
 }
 
 @keyframes slide {
@@ -607,17 +610,25 @@ button:hover .button-text {
   }
 }
 
-.slide-in:nth-child(1) {
-  animation-delay: 0s;
+@keyframes slide-no-disappear {
+  0% {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+  20% {
+    opacity: 1;
+    transform: translateX(0%);
+  }
+  80% {
+    opacity: 1;
+    transform: translateX(0%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0%);
+  }
 }
 
-.slide-in:nth-child(2) {
-  animation-delay: 3s;
-}
-
-.slide-in:last-child {
-  animation-delay: 6s;
-}
 
 
 
