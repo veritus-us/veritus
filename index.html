@@ -21,6 +21,39 @@
 Tooplate 2119 Gymso Fitness
 https://www.tooplate.com/view/2119-gymso-fitness
 -->
+	
+	<title>Animated Text</title>
+	<style>
+		.container {
+			white-space: nowrap; /* Prevents text from wrapping to next line */
+			overflow: hidden; /* Hides overflow content */
+			width: 100%; /* Set width to 100% to prevent line break */
+			position: relative; /* Set position to relative for absolute positioning of text */
+			font-size: 24px; /* Set font size to desired size */
+		}
+		.slide-in {
+			position: absolute; /* Set position to absolute */
+			animation: slide-in 3s ease forwards; /* Set animation name, duration, timing function, and fill mode */
+		}
+		@keyframes slide-in {
+			0% {
+				transform: translateX(100%); /* Set initial position to translateX(100%) */
+			}
+			33% {
+				transform: translateX(0); /* Set position at 33% to translateX(0) */
+			}
+			66% {
+				transform: translateX(-100%); /* Set position at 66% to translateX(-100%) */
+			}
+			100% {
+				transform: translateX(-100%); /* Set final position to translateX(-100%) */
+			}
+		}
+	</style>	
+	
+	
+	
+	
 </head>
 <body data-spy="scroll" data-target="#navbarNav" data-offset="50">
 
@@ -251,39 +284,17 @@ https://www.tooplate.com/view/2119-gymso-fitness
 					},1000);
 					</script>  -->
 				      
-				      
-<style class="justify-content-center align-items-center">
-/* (A) CLEARFIX CONTAINER */
-.wrap-float {
-  overflow: auto;
-  width: 100%;
-}
-.wrap-float::after {
-  content: "";
-  clear: both;
-  display: table;
-}
- 
-/* (B) FLOAT ITEMS */
-.wrap-float > * {
-  display: block;
-  float: center;
-}
- 
-/* (C) NOT REALLY IMPORTANT - COSMETICS */
-.wrap-float > * {
-  width: 33.3%;
-  padding: 0px; margin: 0;
-  border: 0px solid cyan;
-}
-</style>
- 
-<!-- (D) THE HTML -->
-<div class="wrap-float">
-  <h1>Stop wasting time.</h1>
-  <h1>Stop wasting paper.</h1>
-  <h1>Start using Veritus</h1>
-</div>				      
+
+
+
+	<div class="container">
+		<span class="slide-in">Stop wasting time.</span>
+		<span class="slide-in" style="animation-delay: 3s;">Stop wasting paper.</span>
+		<span class="slide-in" style="animation-delay: 6s; animation-fill-mode: forwards;">Start using Veritus.</span>
+	</div>
+
+
+
 				      
 				      
 
