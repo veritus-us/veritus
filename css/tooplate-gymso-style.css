@@ -575,6 +575,7 @@ button:hover .button-text {
   white-space: nowrap;
   overflow: hidden;
   width: 100%;
+  text-align: center; /* Center align the container */
 }
 
 .slide-in {
@@ -586,7 +587,7 @@ button:hover .button-text {
 }
 
 .slide-in:nth-child(2) {
-  animation-delay: 3s; /* Add delay of 3s to second sentence */
+  animation-delay: 3s;
 }
 
 .slide-in:last-child {
@@ -607,15 +608,15 @@ button:hover .button-text {
   }
   20% {
     opacity: 1;
-    transform: translateX(0%);
+    transform: translateX(calc(50% - 150px)); /* Adjust the value to center the sentence */
   }
   80% {
     opacity: 1;
-    transform: translateX(0%);
+    transform: translateX(calc(50% - 150px)); /* Adjust the value to center the sentence */
   }
   100% {
     opacity: 0;
-    transform: translateX(-100%);
+    transform: translateX(calc(-50% + 150px)); /* Adjust the value to center the sentence */
   }
 }
 
@@ -626,17 +627,18 @@ button:hover .button-text {
   }
   20% {
     opacity: 1;
-    transform: translateX(0%);
+    transform: translateX(calc(50% - 150px)); /* Adjust the value to center the sentence */
   }
   80% {
     opacity: 1;
-    transform: translateX(0%);
+    transform: translateX(calc(50% - 150px)); /* Adjust the value to center the sentence */
   }
   100% {
     opacity: 1;
-    transform: translateX(0%);
+    transform: translateX(calc(50% - 150px)); /* Adjust the value to center the sentence */
   }
 }
+
 
 
 
