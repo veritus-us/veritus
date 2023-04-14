@@ -573,7 +573,7 @@ button:hover .button-text {
   -----------------------------------------*/
 .slider {
   position: relative;
-  height: 50px;
+  height: 100px;
   overflow: hidden;
   text-align: center;
 }
@@ -598,46 +598,49 @@ button:hover .button-text {
   animation-name: slide3;
   animation-delay: 4s;
 }
+
 @keyframes slide1 {
-  0% {
-    right: -100%;
+0% {
+    right: 100%;
   }
   50% {
-    right: 0%;
-  }
-  60% {
-    right: 25%;
-  }
-  100% {
     right: 50%;
   }
+  60% {
+    right: 50%;
+  }
+  100% {
+    right: 0%;
+  }
 }
+
 @keyframes slide2 {
-  0% {
-    right: -100%;
+0% {
+    right: 100%;
   }
   50% {
-    right: 0%;
+    right: 50%;
   }
   60% {
-    right: 25%;
+    right: 50%;
   }
   100% {
-    right: 50%;
+    right: 0%;
   }
 }
+
 @keyframes slide3 {
-  0% {
-    right: -100%;
+0% {
+    right: 100%;
   }
   50% {
-    right: 0%;
+    right: 50%;
   }
   60% {
-    right: 25%;
+    right: 50%;
   }
   100% {
-    right: 50%;
+    right: 0%;
   }
 }
 
