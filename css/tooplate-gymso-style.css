@@ -729,6 +729,52 @@ button:hover .button-text {
   }
 
 
+ /*---------------------------------------
+      PRICING            
+  -----------------------------------------*/
+
+  .pricing {
+    background: var(--black-color);
+  }
+
+  /*.about-working-hours {
+    border-left: 2px solid;
+    padding-left: 3.5rem;
+  } */
+
+  .pricing-working-hours strong {
+    color: var(--black-color);
+    opacity: 0.85;
+  }
+
+  .pricing-thumb {
+    position: relative;
+  }
+
+  /*.team-info {
+    background: var(--black-color);
+    border-radius: 0 0 2px 2px;
+    box-shadow: 6px 0 38px rgba(20,20,20,0.10);
+    padding: 20px;
+    position: relative;
+  } */
+
+  .pricing-info span {
+    font-weight: var(--font-weight-light);
+    opacity: 0.85;
+  }
+
+/*  .pricing-info .social-icon {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+  }
+
+  .pricing-info .social-icon li {
+    display: block;
+  }
+
+
   /*---------------------------------------
      SCHEDULE             
   -----------------------------------------*/
