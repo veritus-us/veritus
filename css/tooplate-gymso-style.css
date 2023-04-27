@@ -783,7 +783,7 @@ button:hover .button-text {
     background: var(--dark-color);
     }
 
-  .calendar {
+  .calendly-inline-widget {
     filter: grayscale(100%) invert(92%) contrast(83%);
     }
 
