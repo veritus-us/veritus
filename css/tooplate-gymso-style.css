@@ -862,15 +862,16 @@ button:hover .button-text {
   .form-control {
     border-radius: var(--border-radius-small);
     margin: 1.3rem 0;
+    background: var(--dark-color);
   }
 
   .form-control:focus {
     box-shadow: none;
-    border-color: var(--silver-color);
+    border-color: var(--gold-color);
   }
 
   button#submit-button {
-    background: var(--dark-color);
+    background: var(--silver-color);
     border-color: transparent;
     color: var(--silver-color);
     cursor: pointer;
