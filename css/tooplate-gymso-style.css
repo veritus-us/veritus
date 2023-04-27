@@ -781,6 +781,9 @@ button:hover .button-text {
 
   .schedule {
     background: var(--dark-color);
+    }
+
+  .calendar {
     filter: grayscale(100%) invert(92%) contrast(83%);
     }
 
