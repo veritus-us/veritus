@@ -787,6 +787,11 @@ button:hover .button-text {
     filter: grayscale(100%) invert(92%) contrast(83%);
     }
 
+  .calendly-popup-widget {
+    filter: grayscale(100%) invert(92%) contrast(83%);
+    }
+
+
  /* .schedule-table {
     display: table;
     border: 0;
