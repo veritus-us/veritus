@@ -867,7 +867,7 @@ button:hover .button-text {
 
   .form-control:focus {
     box-shadow: none;
-    border-color: var(--silver-color);
+    border-color: var(--dark-color);
     background: var(--dark-color);
   }
 
