@@ -861,14 +861,13 @@ button:hover .button-text {
 
   .form-control {
     border-radius: var(--border-radius-small);
-    margin: 1.3rem 0;
-    border-color: var(--gold-color);
+    margin: 1.3remsilver-color);
     background: var(--dark-color);
   }
 
   .form-control:focus {
     box-shadow: none;
-    border-color: var(--gold-color);
+    border-color: var(--silver-color);
     background: var(--dark-color);
   }
 
