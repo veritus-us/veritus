@@ -863,13 +863,13 @@ button:hover .button-text {
     border-radius: var(--border-radius-small);
     margin: 1.3rem;
     border-color: var(--dark-color);
-    background: var(--dark-color);
+    background: var(--black-color);
   }
 
   .form-control:focus {
     box-shadow: none;
     border-color: var(--gray-color);
-    background: var(--dark-color);
+    background: var(--black-color);
   }
 
   button#submit-button {
