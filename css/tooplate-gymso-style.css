@@ -854,6 +854,10 @@ button:hover .button-text {
      CONTACT              
   -----------------------------------------*/
 
+  .contact {
+    background: var(--black-color);
+    }
+
   .webform input,
   button#submit-button {
     height: calc(2.25rem + 20px);
