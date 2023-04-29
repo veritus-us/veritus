@@ -240,6 +240,7 @@ https://www.tooplate.com/view/2119-gymso-fitness
   
    bs {
     color: var(--silver-color);
+    font-size: var(--menu-font-size);
     font-weight: var(--font-weight-light);
     letter-spacing: 0;
   }
